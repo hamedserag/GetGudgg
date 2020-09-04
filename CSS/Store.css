@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Squada One", cursive;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ff9500;
+}
+
+body {
+  background-image: url(pattern1.png);
+  background-color: #1a1a1a;
+}
+
+.links {
+  margin-top: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.div1 {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  width: 1500px;
+}
+
+h1 {
+  margin: 8px;
+  font-size: 40px;
+  color: #ffffff;
+}
+h2 {
+  margin: 8px;
+  font-size: 25px;
+  color: #ffcc00;
+}
+p {
+  margin: 2.5 px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+  border: 2.5px solid #ffcc00;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+li:hover {
+  cursor: default;
+}
+button {
+  float: right;
+  background-color: #ffc100;
+  color: #1a1a1a;
+  font-size: 25px;
+  border-radius: 12px;
+  padding: 17px 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid;
+  box-shadow: 0px 1px 0px 0px;
+  background-image: linear-gradient(#ff9500, #ffcb00);
+}
+.content {
+  right: 100px;
+
+  margin: 0 auto;
+}
+
+.gap {
+  column-gap: 40px;
+}
+
+.hold {
+  padding: 12px 675px;
+  border-radius: 15px;
+}
+.mar {
+  margin-top: 18px;
+}

@@ -1,0 +1,124 @@
+/*footer style decoration*/
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+a:hover {
+  color: #FF9500 !important;
+}
+
+/*main Vid style*/
+.mainVidContainer {}
+
+.mainVid {
+  position: relative;
+  width: 100%;
+  height: 720px;
+  z-index: 1;
+}
+
+.greylayer {
+  position: relative;
+  width: 100%;
+  height: 720px;
+  margin-top: -720px;
+  z-index: 2;
+  background-color: #373737;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.greylayer:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.StartStream {
+  text-align: center;
+  font-size: 7vw;
+  width: 100%;
+  color: white;
+}
+
+.start {
+  padding-top: 25vh;
+}
+
+.videoStream {
+  position: relative;
+  z-index: 2;
+  margin-top: -720px;
+  border: 4px solid #FF9500;
+}
+
+/*public streams style*/
+.publicStreamsHeader {
+  margin: 40px 0 0 40px;
+  color: white;
+  padding-left: 20px;
+  border-left: 4px solid #FF9500;
+}
+
+.publicStreamsContaienr {
+  margin-top: 100px;
+}
+
+.streamCard {
+  position: relative;
+  height: 200px;
+  width: 90%;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+
+.streamCard:hover {
+  box-shadow: 8px 8px #FF9500;
+  padding: 0 3px 3px 0;
+}
+
+.streamImg {
+  width: 100%;
+  height: 100%;
+}
+
+.streamDetails {
+  margin-top: 15px;
+  border-left: 4px solid #FF9500;
+  padding-left: 10px;
+}
+
+.streamDetails h1 {
+  font-size: 20px;
+  color: white
+}
+
+.streamCategory {
+  margin-top: 5px;
+  background-color: #FF9500;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  display: inline;
+}
+.live{
+  position :absolute;
+  top: 50px;
+  left: 280px;
+  font-size: 20px;
+  z-index: 4;
+  background-color: #D9534F;
+  border-radius: 8px;
+  padding: 5px;
+}
+.offline{
+  position :absolute;
+  top: 50px;
+  left: 260px;
+  font-size: 20px;
+  z-index: 4;
+  background-color: #292B2C;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+}

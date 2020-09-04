@@ -1,0 +1,158 @@
+.all {
+  background: #1c1c1c;
+  padding: 20px;
+  margin: 10px;
+}
+ul.one {
+  color: white;
+  margin: 10px;
+  list-style-type: none;
+  color: white;
+}
+ul.one li {
+  border: 1px solid #ff8000;
+  margin: 5px;
+  padding: 3px;
+  display: inline-block;
+  font-size: 30px;
+  position: relative;
+  left: 10%;
+  bottom: 80px;
+}
+ul.one li a {
+  color: white;
+  text-decoration: none;
+}
+ul.one li a:hover {
+  color: #ff8000;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+}
+ul.two {
+  list-style-type: none;
+  float: right;
+  position: relative;
+  left: -3%;
+}
+img.gta1 {
+  position: relative;
+  right: -100%;
+}
+div.logo {
+  width: 300px;
+  height: 160px;
+  background: white;
+}
+span.price {
+  font-size: 40px;
+  line-height: 2;
+  font: bold;
+  padding: 0%0%0%60%;
+  margin: 5px;
+}
+button {
+  background: #ff8000;
+  min-width: 300px;
+  padding: 10px;
+}
+ul.three {
+  padding: 1px;
+}
+ul.three li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 3px;
+}
+.h3 {
+  color: white;
+}
+.next {
+  margin: 5px;
+  padding: 5px;
+  background-color: #808080;
+}
+
+span.plat {
+  font-size: 20px;
+  color: #ff8000;
+  display: block;
+  margin: 5px;
+}
+.developer,
+.publisher,
+.links {
+  padding: 0%0%0%60%;
+  color: white;
+  position: relative;
+  bottom: 50px;
+}
+.platform,
+.operate,
+.genre {
+  padding: 0%0%0%10%;
+  color: white;
+}
+.discribtion {
+  background: white;
+  color: #1a1a1a;
+  margin: 0px;
+  padding: 15px;
+}
+section.sec1 {
+  display: inline-block;
+  min-width: 100%;
+}
+section.sec2 {
+  padding: 0%20%0%0%;
+  position: relative;
+  left: 100px;
+  bottom: 150px;
+}
+.system {
+  font-size: 40px;
+  color: #ff8000;
+  padding: 0%0%0%5%;
+}
+section.mini {
+  color: white;
+  width: 50%;
+  text-transform: capitalize;
+  padding: 1%0%1%3%;
+}
+section.rcommend {
+  color: white;
+  width: 43%;
+  position: relative;
+  left: 55%;
+  bottom: 370px;
+  padding: 0%3%0%0%;
+  text-transform: capitalize;
+}
+span.end {
+  font-size: 20px;
+  line-height: 3;
+}
+.final,
+.category,
+.community,
+.account {
+  display: inline-block;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+  color: white;
+}
+.account {
+  padding: 0%0%0%70%;
+  position: relative;
+  bottom: 286px;
+}
+.community {
+  padding: 0%0%0%20%;
+}
+.category {
+  padding: 0%0%0%15%;
+}

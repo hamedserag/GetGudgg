@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Squada One", cursive;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ff9500;
+}
+
+body {
+  background-color: #1a1a1a;
+  background-image: url("pattern1.png");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.div1 {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  width: 1500px;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.content {
+  right: 100px;
+  margin: 0 auto;
+}
+
+/*holder(seaarch)*/
+.hold {
+  padding: 4.5px 10.5px;
+  border-radius: 50px;
+}
+.mar {
+  margin-top: 18px;
+}
+.right {
+  margin-top: 100px;
+}
+
+/*news section*/
+.marginTopN {
+  margin-top: -25px;
+}
+
+.marginTopP {
+  margin-top: 25px;
+}
+
+.newsSection {
+  margin-top: 140px;
+}
+
+.bodyElement {
+  width: 100%;
+  border: 3px solid #ff9500;
+}
+
+.whiteHeader {
+  color: #fff;
+}
+
+.textLarge {
+  font-size: 25px;
+}
+
+/*games section*/
+.gamesElement {
+  height: 400px;
+}
+
+.gamesParagraph {
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+#flip {
+  width: 1110px;
+  margin-left: 412px;
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+  cursor: grab;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+  background-color: none;
+  border: none;
+  width: 1205px;
+  margin-left: 360px;
+  cursor: default;
+}

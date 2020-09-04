@@ -1,0 +1,171 @@
+/************* B L O G    S T Y L E  &   C O N T A C T   P A G E *****************************/
+#articles,
+#sidebar {
+  display: inline-block;
+  vertical-align: top;
+  *display: inline;
+  zoom: 1;
+}
+#blog section,
+#contact section {
+  margin: 30px 0 0 10px;
+}
+#sidebar,
+#contat #sidebar {
+  width: 280px;
+  margin: 0 0 0 55px;
+}
+#articles,
+#contactpost {
+  width: 600px;
+  margin: 0 0 40px 120px;
+}
+#blog article {
+  width: 580px;
+  margin-bottom: 40px;
+}
+#blog footer,
+#contact footer {
+  margin-top: 0px;
+}
+#blog article h1 a {
+  font-family: LeagueGothic, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 22px;
+  word-spacing: 2px;
+  margin-bottom: 5px;
+  background: -webkit-linear-gradient(#ff9500, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#blog article h2 {
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  margin-bottom: 12px;
+  color: #fff;
+  padding: 4px 8px 4px 8px;
+  font-family: source, sans-serif;
+  text-transform: none;
+}
+#blog article h2 a:hover {
+  text-decoration: underline;
+}
+#blog article h2 a:hover {
+  text-decoration: underline;
+}
+#blog article p {
+  color: #fff;
+}
+#blog article p a {
+  background: -webkit-linear-gradient(#ff9500, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#sidebar {
+  float: right;
+  margin-right: 120px;
+}
+#sidebar h1,
+#contact #sidebar h1 {
+  font-family: LeagueGothic, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 22px;
+  word-spacing: 2px;
+  margin-bottom: 4px;
+}
+#sidebar h1 {
+  background: -webkit-linear-gradient(#ff9500, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#sidebar li,
+#contact #sidebar li {
+  margin: 0 0 4px 25px;
+  color: #ffcc00;
+}
+#sidebar li:hover,
+#contact #sidebar li:hover {
+  margin-left: 30px;
+}
+#sidebar li a {
+  color: #fff;
+}
+#sidebar li a:hover,
+#contact #sidebar li a:hover {
+  text-decoration: underline;
+}
+#blog aside,
+#contact #sidebar aside {
+  margin: 0 0 20px 0;
+}
+#cat,
+#archives,
+#contact #sidebar #cat,
+#contact #sidebar #archives {
+  width: 130px;
+  display: inline-block;
+  vertical-align: top;
+  *display: inline;
+  zoom: 1;
+}
+.continue {
+  text-decoration: underline;
+}
+
+/************* F U L L  W I D T H   &  S I N G L E   P O S T    S T Y L E*********************/
+#fullwidth h1,
+#fullwidth h2,
+#fullwidth h3,
+#fullwidth h4,
+#fullwidth h5,
+#fullwidth h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: LeagueGothic, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+#fullwidth section h2,
+#singlepost section h2 {
+  color: #ffcc00;
+}
+.mg {
+  /*just for examples, do not use this class*/
+  margin: 8px 0 12px 0;
+}
+#fullwidth section a,
+#singlepost section a {
+  text-decoration: underline;
+}
+#fullwidth section ul li,
+#singlepost section ul li {
+  list-style-type: square;
+  margin-left: 20px;
+}
+#fullwidth section ol li,
+#singlepost section ol li {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+.right {
+  float: right;
+  margin-left: 10px;
+}
+.left {
+  float: left;
+  margin-right: 10px;
+}
+.center {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/************* F O O T E R     S T Y L E *************************/

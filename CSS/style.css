@@ -1,0 +1,91 @@
+/*global style*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Squada One", cursive;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  background-image: url("../Images/pattern1.png");
+}
+
+.orangeHeader {
+  background: -webkit-linear-gradient(#ff9500, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.whiteHeader {
+  color: #fff;
+}
+
+/*header*/
+a,
+a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+a:hover {
+  color: #ffa400 !important;
+}
+
+/*navbar*/
+.gglogo {
+  height: 60px;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+}
+
+.nav-item {
+  font-size: 25px;
+}
+
+.dash {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.fa {
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.navLogin {
+  margin-left: 50px;
+}
+
+.orangeBorderBot {
+  border-bottom: 4px solid #ffa400;
+}
+
+/*footer*/
+.footer {
+  border-top: 4px solid #ffa400;
+  background-color: #1a1a1a;
+  margin-top: 60px;
+  color: white;
+}
+
+.footerSecondary {
+  padding: 100px 100px;
+}
+
+.footerCol {
+  text-align: left;
+  font-size: 20px;
+}
+
+.marginTopN {
+  margin-top: -25px;
+}
+
+.marginTopP {
+  margin-top: 25px;
+}

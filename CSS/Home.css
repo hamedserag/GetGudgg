@@ -1,0 +1,141 @@
+/*img slider=======================================================*/
+a{
+  color: white !important;
+}
+.captionLogo {
+  position: absolute;
+  top: -65vh;
+  left: -25vw;
+}
+
+.captionLogoImg {
+  width: 40%;
+}
+
+.sliderImg {
+  height: 85vh;
+}
+
+.blacken {
+  position: absolute;
+  height: 85vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.captionBody {
+  position: absolute;
+  top: -50vh;
+  left: -10vw;
+  text-align: left;
+  width: 45vw;
+}
+
+.captionTrailer {
+  position: absolute;
+  top: -55vh;
+  left: 40vw;
+}
+
+.TrailerVideo {
+  border: 4px solid #FF9500;
+}
+
+/**/
+.carousel-indicators {
+  list-style: none;
+  position: absolute;
+  left: -18vw;
+  width: 100%;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  position: relative;
+  margin: 0px 50px !important;
+}
+
+.carousel-indicators li {
+  opacity: 1;
+}
+
+.carousel-indicators img {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  border: 3px solid #FF9500;
+  transition: 0.5s;
+}
+
+#mainSlider .carousel-indicators li.active img {
+  opacity: 1;
+  height: 230px;
+  top: -30px;
+}
+
+/*news section*/
+.newsSection {
+  margin-top: 140px;
+}
+
+.bodyElement {
+  width: 100%;
+  border: 3px solid #FF9500;
+}
+
+.newsElement1 {
+  height: 350px;
+}
+
+.newsElement2 {
+  height: 200px;
+}
+
+.whiteHeader {
+  color: #fff;
+}
+
+.newsParagraphs1 {
+  color: white;
+  position: relative;
+  top: -60px;
+  left: 3%;
+}
+
+.newsParagraphs2 {
+  color: white;
+  position: relative;
+  top: -47px;
+  left: 3%;
+}
+
+.textLarge {
+  font-size: 25px;
+}
+
+.textMd {
+  font-size: 20px;
+  margin: 0;
+}
+
+.textSmall {
+  font-size: 16px;
+  margin: 0;
+}
+
+/*games section*/
+.gamesElement {
+  height: 400px;
+}
+
+.gamesParagraph {
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+/*STORE SECTION*/

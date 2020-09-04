@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Squada One", cursive;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ff9500;
+}
+
+/*FAQ Section--------------------------------------------------*/
+.faq {
+  margin: auto;
+  color: #ffffff;
+  border: 1px solid #1a1a1a;
+}
+p,
+summary {
+  background: #1a1a1a;
+}
+summary {
+  padding: 20px;
+  font-size: 19px;
+  z-index: 1;
+  border-bottom: 1px solid #1a1a1a;
+  cursor: pointer;
+}
+.faq-p {
+  margin: -2px -20px 0;
+  padding: 30px;
+  font-size: 15px;
+  color: #ff9500;
+  line-height: 1.5;
+  border: 1px solid #1a1a1a;
+  text-align: justify;
+  z-index: 2;
+  box-shadow: 0 0 30px -12px #ffffff;
+}
+details[open] p {
+  animation: det 0.3s;
+}
+@keyframes det {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+button {
+  float: right;
+  background: linear-gradient(#ff9500, #ffcc00);
+  border: 0;
+  padding: 11px;
+  margin: -6px -6px 0 0;
+  color: #1a1a1a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #fff;
+}

@@ -1,0 +1,104 @@
+* {
+  background-color: #1a1a1a;
+}
+p.upcoming {
+  padding: 0%0%0%45%;
+  font-family: "Squada One", cursive;
+  font-size: 40px;
+  color: #ff9500;
+}
+img.valhalla {
+  margin: 5px;
+  padding: 5px;
+}
+.valvedio {
+  position: relative;
+  left: 60%;
+  bottom: 380px;
+}
+
+.show {
+  position: relative;
+  right: 550px;
+  bottom: 300px;
+  padding: 5px;
+  display: true;
+  background-color: #ff9500;
+  font-family: "Squada One", cursive;
+}
+.hide {
+  position: relative;
+  right: 550px;
+  bottom: 300px;
+  padding: 5px;
+  display: none;
+  background-color: #ff9500;
+  font-family: "Squada One", cursive;
+}
+.dataval {
+  position: relative;
+  left: 20px;
+  bottom: 300px;
+  padding: 3px;
+  display: none;
+  color: #ff9500;
+  font-family: "Squada One", cursive;
+}
+.farcry6 {
+  position: relative;
+  bottom: 400px;
+  margin: 5px;
+  padding: 5px;
+}
+.farvedio {
+  position: relative;
+  left: 13%;
+  bottom: 180px;
+}
+.showf,
+.hidef {
+  float: bottom;
+  position: relative;
+  right: 83%;
+  bottom: 85px;
+  background-color: #ff9500;
+  font-family: "Squada One", cursive;
+}
+.showf {
+  padding: 5px;
+  display: true;
+}
+.hidef {
+  padding: 5px;
+  display: none;
+}
+.datafar {
+  position: relative;
+  left: 20px;
+  bottom: 350px;
+  padding: 3px;
+  display: none;
+  color: #ff9500;
+  font-family: "Squada One", cursive;
+}
+.final,
+.category,
+.community,
+.account {
+  display: inline-block;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+  color: white;
+}
+.account {
+  padding: 0%0%0%70%;
+  position: relative;
+  bottom: 286px;
+}
+.community {
+  padding: 0%0%0%20%;
+}
+.category {
+  padding: 0%0%0%15%;
+}

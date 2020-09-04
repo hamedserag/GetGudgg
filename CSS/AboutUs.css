@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Squada One", cursive;
+}
+
+body {
+  background-color: #1a1a1a; /*#1C1C1C*/
+}
+
+.orangeHeader {
+  background: -webkit-linear-gradient(#ff9500, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.whiteHeader {
+  color: #fff;
+}
+/*header*/
+a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ff9500;
+}
+/*navbar*/
+.gglogo {
+  height: 60px;
+}
+.navbar {
+  background-color: #1a1a1a;
+}
+.nav-item {
+  font-size: 25px;
+}
+.dash {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.fa {
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.navLogin {
+  margin-left: 50px;
+}
+.orangeBorderBot {
+  border-bottom: 4px solid #ffa400;
+}
+/* mine*/
+.gud {
+  background-color: #1a1a1a;
+  padding: 0%0%0%30%;
+  float: right;
+}
+.gedgud {
+  font-size: 22px;
+  color: #ff9500;
+  margin: 15px;
+  padding: 15px;
+}
+.finish {
+  color: #ff9500;
+  margin: 10px;
+  padding: 10px;
+}
